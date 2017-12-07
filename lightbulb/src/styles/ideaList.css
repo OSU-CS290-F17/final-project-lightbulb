@@ -1,0 +1,23 @@
+.list-group-item-heading {
+  color: #4c4c4c;
+  font-family: 'Open Sans', sans-serif;  
+  overflow-wrap: break-word;
+}
+
+.list-group-item{
+  margin: 15px;
+  box-shadow: 0 5px 5px rgba(0,0,0,0.13), 0 4px 4px rgba(0,0,0,0.17);
+}
+
+.pull-middle{
+  margin: 3% 29%;
+}
+
+.pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover {
+  background-color: #f85600;
+  border-color:#f85600;
+}
+
+.pagination>li>a, .pagination>li>span, .pagination>li>a:hover, .pagination>li>span:hover {
+  color: #f85600;
+}

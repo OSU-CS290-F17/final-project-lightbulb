@@ -1,0 +1,65 @@
+.navbar{
+  background: #fe8c00;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #f83600, #fe8c00);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #f83600, #fe8c00); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */  
+  border: none;
+  box-shadow: none;  
+  border-radius: 0;
+  height: 125px;
+  display: flex;
+  align-items: center;
+}
+
+.navbar-brand{
+  font-size: 50px;
+  font-family: 'Poiret One', cursive;
+}
+
+.navbar-default .navbar-nav>li>a, .navbar-default .navbar-brand{
+  color: white;
+  padding: 20px;
+}
+
+.nav, .navbar-nav{
+  justify-content: flex-end;
+  margin-left: 63.3%;
+  font-size: 20px;
+  font-family: 'Open Sans', sans-serif;  
+  font-weight: 300;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
+  background: transparent;
+  color: white;
+  box-shadow: none;
+}
+
+.navbar-default .navbar-nav>li>a:hover{
+  color: white;
+}
+
+.navbar-nav>li>a:before{
+  content: "";
+  position: absolute;
+  width: 60%;
+  height: 2px;
+  bottom: 10px;
+  left: 20%;
+  background-color: white;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.35s ease-in-out 0s;
+  transition: all 0.35s ease-in-out 0s;
+}
+
+.navbar-nav>li>a:hover:before{
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
+
+.navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover{
+  color: white;
+}
+
